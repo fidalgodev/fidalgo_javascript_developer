@@ -1,12 +1,10 @@
 import React from 'react';
-import { StyledLink } from './style';
+import { NavLink as StyledNavLink } from './style';
 
-const NavLink = ({ children, ...rest }) => {
+export const NavLink = ({ children, ...rest }) => {
   return (
-    <StyledLink activeClassName="active" {...rest}>
+    <StyledNavLink activeClassName="active" {...rest}>
       {children}
-    </StyledLink>
+    </StyledNavLink>
   );
 };
-
-export default NavLink;

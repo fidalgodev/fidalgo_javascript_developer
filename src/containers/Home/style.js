@@ -1,15 +1,8 @@
 import styled from 'styled-components';
 
-import { Contained } from '../../styles/elements';
+import { ContainedWrapper } from '../../styles/elements';
 
-export const Container = styled.div`
-  ${Contained}
-  margin-top: 8rem;
-
-  @media ${({ theme }) => theme.mediaQueries.small} {
-    margin-top: 4rem;
-  }
-
+export const Container = styled(ContainedWrapper)`
   & .background__image {
     position: absolute;
     right: 0;

@@ -5,7 +5,7 @@ import GlobalStyles from '../styles/global';
 import theme from '../styles/theme';
 import Navbar from './Navigation/Navbar';
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -14,5 +14,3 @@ const Layout = ({ children }) => {
     </ThemeProvider>
   );
 };
-
-export default Layout;

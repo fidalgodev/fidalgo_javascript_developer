@@ -1,7 +1,6 @@
-import { css } from 'styled-components';
+import styled, { css } from 'styled-components';
 
-// Contained wrapper
-export const Contained = css`
+export const ContainedStyles = css`
   max-width: 170rem;
   margin: 0 auto;
   padding: 0 80px;
@@ -12,5 +11,14 @@ export const Contained = css`
 
   @media ${({ theme }) => theme.mediaQueries.small} {
     padding: 0 20px;
+  }
+`;
+
+export const ContainedWrapper = styled.div`
+  ${ContainedStyles}
+  margin-top: 8rem;
+
+  @media ${({ theme }) => theme.mediaQueries.small} {
+    margin-top: 4rem;
   }
 `;

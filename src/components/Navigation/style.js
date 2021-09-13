@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Link } from 'gatsby';
-import { Contained } from '../../styles/elements';
+import { ContainedStyles } from '../../styles/elements';
 
 export const Header = styled.header`
   background-color: var(--navbackground);
@@ -9,7 +9,7 @@ export const Header = styled.header`
 `;
 
 export const HeaderContainer = styled.div`
-  ${Contained}
+  ${ContainedStyles}
   display: flex;
   align-items: center;
   height: 100%;
@@ -34,7 +34,7 @@ export const Logo = styled(Link)`
   }
 `;
 
-export const StyledLink = styled(Link)`
+export const LinkStyles = css`
   font-size: 1.8rem;
   padding: 2rem;
   font-weight: 600;
@@ -46,6 +46,10 @@ export const StyledLink = styled(Link)`
     text-decoration: underline;
     transition: all 200ms linear;
   }
+`;
+
+export const NavLink = styled(Link)`
+  ${LinkStyles}
 
   &:not(:last-child) {
     margin-right: 3rem;
