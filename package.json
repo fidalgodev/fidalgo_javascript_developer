@@ -45,5 +45,9 @@
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-prettier": "^1.2.0"
+  },
+  "husky": {
+    "lint": "npm run lint",
+    "lint-css": "npm run lint-css"
   }
 }
