@@ -6,10 +6,6 @@ import { Container, Wrapper, Grid, List } from './style';
 import { SubHeading, Heading } from '../../styles/typography';
 
 export const HomePage = () => {
-
-
-
-  
   return (
     <Container>
       <StaticImage
