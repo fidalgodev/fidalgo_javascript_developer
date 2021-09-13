@@ -7,7 +7,7 @@ export const SubHeading = styled.h2`
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 1.6rem;
-  letter-spacing: 12px;
+  letter-spacing: 1px;
 `;
 
 export const Heading = styled.h1`
