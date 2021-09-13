@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { Contained } from '../../styles/elements';
 
 export const Header = styled.header`
-  background-color: var(--navbarbckg);
+  background-color: var(--navbackground);
   height: 9rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 `;
@@ -23,6 +23,7 @@ export const Logo = styled(Link)`
   margin-right: auto;
   display: flex;
   align-items: center;
+  color: var(--heading);
 
   & .logoWrapper {
     margin-right: 1.5rem;
@@ -37,11 +38,11 @@ export const StyledLink = styled(Link)`
   font-size: 1.8rem;
   padding: 2rem;
   font-weight: 600;
-  color: var(--navbartext);
+  color: var(--subheading);
 
   &:hover,
   &.active {
-    color: var(--text);
+    color: var(--heading);
     text-decoration: underline;
     transition: all 200ms linear;
   }

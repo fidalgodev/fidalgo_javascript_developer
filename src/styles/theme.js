@@ -1,7 +1,7 @@
 const theme = {
   colors: {
     black: '#1A1A1A',
-    blackOpacity90: '#1A1A1AE6',
+    // blackOpacity90: '#1A1A1AE6',
     blackOpacity80: '#1A1A1ACC',
     blackOpacity60: '#1A1A1A99',
     white: '#FFFFFF',

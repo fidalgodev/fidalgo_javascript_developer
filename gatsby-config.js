@@ -23,5 +23,20 @@ module.exports = {
       },
       __key: 'images',
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Mono`,
+            variants: ['700'],
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    },
   ],
 };

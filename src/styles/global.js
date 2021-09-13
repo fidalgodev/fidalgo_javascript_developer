@@ -1,6 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+:root {
+  --background: #FDFDFD;
+  --navbackground: #FFFFFF;
+  --heading: #1A1A1A;
+  --subheading: #1A1A1ACC;
+  --text: #1A1A1A99;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -32,9 +40,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: visible;
-  --navbarbckg: ${({ theme }) => theme.colors.white};
-  --text: ${({ theme }) => theme.colors.black};
-  --navbartext: ${({ theme }) => theme.colors.blackOpacity80};
+  background-color: var(--background);
 }
 
 form,
@@ -49,6 +55,20 @@ a {
 a {
   text-decoration: none;
   color: var(--text);
+}
+
+a:hover,
+a:active {
+  color: var(--heading);
+  text-decoration: underline;
+  transition: all 200ms linear;
+}
+
+p {
+  color: var(--text);
+  line-height: 2;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 /* Remove default margin */
