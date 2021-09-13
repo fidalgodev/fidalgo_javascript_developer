@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint:css": "stylelint './src/**/*.js'",
-    "lint": "eslint 'src/**/*.js'"
+    "lint": "eslint 'src/**/*.js'",
+    "prepare": "husky install"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
@@ -42,6 +43,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-prettier": "^1.2.0"
+    "stylelint-prettier": "^1.2.0",
+    "husky": "^7.0.0"
   }
 }
