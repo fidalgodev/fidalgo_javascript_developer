@@ -13,8 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint:css": "stylelint './src/**/*.js'",
-    "lint": "eslint 'src/**/*.js'",
-    "prepare": "husky install"
+    "lint": "eslint 'src/**/*.js'"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",

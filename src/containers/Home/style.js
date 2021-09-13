@@ -75,7 +75,7 @@ export const List = styled.ul`
     padding: 0;
 
     & li:first-child {
-      margin-top: 1rem;
+      margin-top: 12rem;
     }
   }
 `;
