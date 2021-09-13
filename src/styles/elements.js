@@ -11,6 +11,6 @@ export const Contained = css`
   }
 
   @media ${({ theme }) => theme.mediaQueries.small} {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 `;

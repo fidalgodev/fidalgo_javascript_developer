@@ -22,13 +22,21 @@ export default createGlobalStyle`
   outline: none;
   box-sizing: inherit;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
-  }
+}
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
   line-height: 1.15;
-    }
+
+  @media ${({ theme }) => theme.mediaQueries.small} {
+    font-size: 55%;
+  }
+
+  @media ${({ theme }) => theme.mediaQueries.smaller} {
+    font-size: 50%;
+  }
+}
 
 body {
   min-height: 100vh;
