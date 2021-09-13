@@ -7,6 +7,8 @@ import { SubHeading, Heading } from '../../styles/typography';
 
 export const HomePage = () => {
 
+
+
   
   return (
     <Container>
