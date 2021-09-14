@@ -19,8 +19,7 @@ export default createGlobalStyle`
 }
 
 * {
-  outline-color: var(--heading);
-  outline-width: 1px;
+  outline-offset: 4px;
   box-sizing: inherit;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
@@ -48,6 +47,20 @@ body {
   background-color: var(--background);
 }
 
+a {
+  text-decoration: none;
+  color: var(--text);
+  transition: ${({ theme }) => theme.transition.ease};
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 form,
 input,
 textarea,
@@ -55,12 +68,11 @@ button,
 select,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
 
-a {
-  text-decoration: none;
-  color: var(--text);
-  transition: ${({ theme }) => theme.transition.ease};
+  &:focus {
+    outline: 2px solid var(--heading);
+    outline-offset: 4px;
+  }
 }
 
 a:hover,
@@ -100,14 +112,6 @@ img,
 picture {
   max-width: 100%;
   display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
