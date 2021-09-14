@@ -74,6 +74,7 @@ p {
   line-height: 2.5;
   font-size: 2rem;
   letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 /* Remove default margin */
@@ -82,7 +83,6 @@ h1,
 h2,
 h3,
 h4,
-p,
 figure,
 blockquote,
 dl,
