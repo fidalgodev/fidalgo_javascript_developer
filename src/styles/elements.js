@@ -19,6 +19,6 @@ export const ContainedWrapper = styled.div`
   margin-top: 8rem;
 
   @media ${({ theme }) => theme.mediaQueries.small} {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 `;

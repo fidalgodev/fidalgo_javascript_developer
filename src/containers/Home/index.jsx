@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { StaticImage } from 'gatsby-plugin-image';
 
-import { Container, Wrapper, Grid, List } from './style';
+import { Container, Wrapper, SocialsWrapper, List } from './style';
 import { SubHeading, Heading } from '../../styles/typography';
 
 export const HomePage = () => {
@@ -33,16 +33,7 @@ export const HomePage = () => {
           that we should never settle. I&#39;m hard working, super curious,
           passionate, committed and a fast learner!
         </p>
-        <Grid>
-          <SubHeading>Skills</SubHeading>
-          <List>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-            <li>react js</li>
-            <li>node</li>
-            <li>aws</li>
-          </List>
+        <SocialsWrapper>
           <SubHeading>Socials</SubHeading>
           <List>
             <li>
@@ -82,7 +73,7 @@ export const HomePage = () => {
               </a>
             </li>
           </List>
-        </Grid>
+        </SocialsWrapper>
       </Wrapper>
     </Container>
   );

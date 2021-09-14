@@ -32,6 +32,10 @@ export const Logo = styled(Link)`
   & .logo {
     border-radius: 50%;
   }
+
+  &:hover {
+    text-decoration: line-through;
+  }
 `;
 
 export const LinkStyles = css`

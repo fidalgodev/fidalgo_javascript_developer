@@ -19,7 +19,9 @@ export default createGlobalStyle`
 }
 
 * {
-  outline: none;
+  outline-color: var(---heading);
+  outline-width: thin;
+  outline-offset: 1px;
   box-sizing: inherit;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
@@ -31,10 +33,6 @@ html {
 
   @media ${({ theme }) => theme.mediaQueries.small} {
     font-size: 55%;
-  }
-
-  @media ${({ theme }) => theme.mediaQueries.smaller} {
-    font-size: 50%;
   }
 }
 
@@ -74,7 +72,7 @@ a:active {
 
 p {
   color: var(--text);
-  line-height: 2;
+  line-height: 2.5;
   font-size: 2rem;
   letter-spacing: 1px;
 }
@@ -91,12 +89,6 @@ blockquote,
 dl,
 dd {
   margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
 }
 
 /* Set core root defaults */
