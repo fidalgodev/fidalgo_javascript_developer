@@ -35,7 +35,7 @@ export const HomePage = () => {
           passionate, committed and a fast learner!
         </p>
         <SocialsWrapper>
-          <SubHeading>Socials</SubHeading>
+          <SubHeading>Links</SubHeading>
           <List>
             <li>
               <a href={config.github} target="_blank" rel="noreferrer">
