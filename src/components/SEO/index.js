@@ -29,6 +29,7 @@ const SEO = ({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="image" content={image} />
+        <html lang="en" amp />
 
         {/* OpenGraph tags */}
         <meta property="og:url" content={url} />
