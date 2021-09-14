@@ -19,7 +19,7 @@ export default createGlobalStyle`
 }
 
 * {
-  outline-color: var(---heading);
+  outline-color: var(--heading);
   outline-width: 1px;
   box-sizing: inherit;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;

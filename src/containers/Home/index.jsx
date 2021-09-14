@@ -63,6 +63,11 @@ export const HomePage = () => {
               </a>
             </li>
             <li>
+              <a href="./curriculum.pdf" target="_blank" rel="noreferrer">
+                curriculum
+              </a>
+            </li>
+            <li>
               <a
                 href={`mailto:${config.email}`}
                 target="_blank"
