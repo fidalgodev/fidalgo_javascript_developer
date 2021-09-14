@@ -30,7 +30,7 @@ export const HomePage = () => {
           and transitioned to a Full Stack position.
         </p>
         <p>
-          I always want to learn moreand do more. I&#39;m also a firm believer
+          I always want to learn more and do more. I&#39;m also a firm believer
           that we should never settle. I&#39;m hard working, super curious,
           passionate, committed and a fast learner!
         </p>
