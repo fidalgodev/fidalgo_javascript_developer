@@ -18,7 +18,7 @@ export const HomePage = () => {
         <SubHeading>About me</SubHeading>
         <Heading>Hi, I&#39;m Fidalgo.</Heading>
         <p>
-          I&#39;m Fidalgo, a 25 years old self-taught Javascript Developer,
+          I&#39;m Fidalgo, a 25 year old self-taught Javascript Developer,
           currently living in Leicester.
         </p>
         <p>
@@ -64,7 +64,7 @@ export const HomePage = () => {
             </li>
             <li>
               <a href="./curriculum.pdf" target="_blank" rel="noreferrer">
-                curriculum
+                curriculum vitae
               </a>
             </li>
             <li>
