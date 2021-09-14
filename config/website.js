@@ -7,7 +7,7 @@ module.exports = {
   pathPrefix: '/',
   siteLogo: 'images/logo.jpeg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
-    "I'm Fidalgo, a 25 years old self-taught Javascript Developer, currently living in Leicester.",
+    "I'm Fidalgo, a 25 year old self-taught Javascript Developer, currently living in Leicester.",
   minibio:
     "I always want to learn moreand do more. I';m also a firm believer that we should never settle. I';m hard working, super curious, passionate, committed and a fast learner!",
   author: 'Fidalgo', // Author for schemaORGJSONLD
