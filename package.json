@@ -18,8 +18,8 @@
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.13.0",
     "gatsby-plugin-google-analytics": "^3.13.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^1.13.0",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-styled-components": "^4.13.0",
@@ -46,6 +46,9 @@
     "stylelint-prettier": "^1.2.0"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint", "stylelint"]
+    "*.{js,jsx}": [
+      "eslint",
+      "stylelint"
+    ]
   }
 }
