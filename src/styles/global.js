@@ -20,8 +20,7 @@ export default createGlobalStyle`
 
 * {
   outline-color: var(---heading);
-  outline-width: thin;
-  outline-offset: 1px;
+  outline-width: 1px;
   box-sizing: inherit;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
@@ -31,7 +30,7 @@ html {
   box-sizing: border-box;
   line-height: 1.15;
 
-  @media ${({ theme }) => theme.mediaQueries.small} {
+  @media ${({ theme }) => theme.breakpoints.s} {
     font-size: 55%;
   }
 }
@@ -61,13 +60,13 @@ a {
 a {
   text-decoration: none;
   color: var(--text);
+  transition: ${({ theme }) => theme.transition.ease};
 }
 
 a:hover,
 a:active {
   color: var(--heading);
   text-decoration: underline;
-  transition: all 200ms linear;
 }
 
 p {
@@ -120,9 +119,6 @@ select {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }

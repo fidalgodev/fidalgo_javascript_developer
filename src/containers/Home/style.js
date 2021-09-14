@@ -12,7 +12,7 @@ export const Container = styled(ContainedWrapper)`
     z-index: -1;
     clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
 
-    @media ${({ theme }) => theme.mediaQueries.large} {
+    @media ${({ theme }) => theme.breakpoints.l} {
       display: none;
     }
   }
@@ -21,7 +21,7 @@ export const Container = styled(ContainedWrapper)`
 export const Wrapper = styled.div`
   width: 62.5%;
 
-  @media ${({ theme }) => theme.mediaQueries.large} {
+  @media ${({ theme }) => theme.breakpoints.l} {
     width: 100%;
   }
 `;
@@ -32,7 +32,7 @@ export const SocialsWrapper = styled.div`
   margin-top: 7rem;
   margin-bottom: 2rem;
 
-  @media ${({ theme }) => theme.mediaQueries.smaller} {
+  @media ${({ theme }) => theme.breakpoints.xs} {
     margin-top: 6rem;
   }
 `;

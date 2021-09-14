@@ -4,13 +4,14 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 import { Container, Wrapper, SocialsWrapper, List } from './style';
 import { SubHeading, Heading } from '../../styles/typography';
+import config from '../../../config/website';
 
 export const HomePage = () => {
   return (
     <Container>
       <StaticImage
         className="background__image"
-        src="../../images/bckg.jpg"
+        src="../../../static/images/bckg.jpg"
         objectPosition="left top"
       />
       <Wrapper>
@@ -37,39 +38,37 @@ export const HomePage = () => {
           <SubHeading>Socials</SubHeading>
           <List>
             <li>
-              <a
-                href="https://www.instagram.com/fidalgo.dev"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={config.github} target="_blank" rel="noreferrer">
+                github
+              </a>
+            </li>
+            <li>
+              <a href={config.instagram} target="_blank" rel="noreferrer">
                 instagram
               </a>
             </li>
             <li>
-              <a
-                href="https://youtube.com/c/fidalgodev"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={config.youtube} target="_blank" rel="noreferrer">
                 youtube
               </a>
             </li>
             <li>
-              <a
-                href="https://twitter.com/fidalgodev"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={config.twitter} target="_blank" rel="noreferrer">
                 twitter
               </a>
             </li>
             <li>
+              <a href={config.linkedin} target="_blank" rel="noreferrer">
+                linkedin
+              </a>
+            </li>
+            <li>
               <a
-                href="mailto:hello@fidalgo.dev"
+                href={`mailto:${config.email}`}
                 target="_blank"
                 rel="noreferrer"
               >
-                hello@fidalgo.dev
+                {config.email}
               </a>
             </li>
           </List>

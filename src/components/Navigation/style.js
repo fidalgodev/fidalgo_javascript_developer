@@ -48,7 +48,7 @@ export const LinkStyles = css`
   &.active {
     color: var(--heading);
     text-decoration: underline;
-    transition: all 200ms linear;
+    transition: ${({ theme }) => theme.transition.ease};
   }
 `;
 

@@ -1,7 +1,30 @@
+const config = require('./config/website');
+
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
-    title: 'Fidalgo - Javascript Developer',
+    siteUrl: config.siteUrl,
+    title: config.siteTitle,
+    twitterHandle: config.twitterHandle,
+    description: config.siteDescription,
+    keywords: [
+      'Software Engineer',
+      'Javascript Developer',
+      'Full Stack Developer',
+    ],
+    canonicalUrl: config.siteUrl,
+    image: config.siteLogo,
+    author: {
+      name: config.author,
+      minibio: config.minibio,
+    },
+    organization: {
+      name: config.organization,
+      url: config.siteUrl,
+      logo: config.siteLogo,
+    },
+    social: {
+      twitter: config.twitterHandle,
+    },
   },
   plugins: [
     'gatsby-plugin-styled-components',
