@@ -5,7 +5,7 @@ module.exports = {
   siteUrl: process.env.ROOT_URL || 'https://fidalgo.dev', // Domain of your site. No trailing slash!
   lang: 'en', // Language Tag on <html> element
   pathPrefix: '/',
-  siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
+  siteLogo: 'images/logo.jpeg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
     'I&#39;m Fidalgo, a 25 years old self-taught Javascript Developer, currently living in Leicester.',
   minibio:

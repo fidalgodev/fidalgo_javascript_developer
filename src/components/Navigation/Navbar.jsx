@@ -12,7 +12,7 @@ const Navbar = () => {
           <StaticImage
             alt="Logo"
             title="Logo"
-            src="../../../static/images/logo.jpeg"
+            src="../../images/logo.jpeg"
             width="50"
             height="50"
             imgClassName="logo"
