@@ -15,5 +15,5 @@ export const Heading = styled.h1`
   line-height: 1;
   font-weight: 900;
   font-size: 7rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 `;
