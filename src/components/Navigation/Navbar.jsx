@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
-import { NavLink } from './NavLink';
+// import { NavLink } from './NavLink';
 import { Header, HeaderContainer, Logo } from './style';
 
 const Navbar = () => {
@@ -21,9 +21,9 @@ const Navbar = () => {
           />
           fidalgo.dev
         </Logo>
-        <nav>
+        {/* <nav>
           <NavLink to="/">about</NavLink>
-        </nav>
+        </nav> */}
       </HeaderContainer>
     </Header>
   );
