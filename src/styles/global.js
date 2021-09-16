@@ -34,6 +34,13 @@ html {
   }
 }
 
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -43,9 +50,13 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  position: relative;
   overflow: visible;
   background-color: var(--background);
+
+  & main {
+    flex: 1;
+    position: relative;
+  }
 }
 
 a {

@@ -8,7 +8,7 @@ export const Container = styled(ContainedWrapper)`
     right: 0;
     top: 0;
     width: 42.5%;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
     clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
 
