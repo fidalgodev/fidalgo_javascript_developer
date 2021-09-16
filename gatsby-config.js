@@ -78,6 +78,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
