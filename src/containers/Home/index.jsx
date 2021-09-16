@@ -11,8 +11,8 @@ export const HomePage = () => {
     <Container>
       <StaticImage
         className="background__image"
-        src="../../images/bckg.jpg"
-        objectPosition="left top"
+        src="../../images/background.jpg"
+        objectPosition="30% center"
       />
       <Wrapper>
         <SubHeading>About me</SubHeading>
