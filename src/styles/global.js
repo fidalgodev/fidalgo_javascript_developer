@@ -43,6 +43,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  position: relative;
   overflow: visible;
   background-color: var(--background);
 }
@@ -84,8 +85,8 @@ a:active {
 p {
   color: var(--text);
   line-height: 2.5;
-  font-size: 2rem;
-  letter-spacing: 1px;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }

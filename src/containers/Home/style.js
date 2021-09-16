@@ -48,7 +48,7 @@ export const List = styled.ul`
     line-height: 1;
     color: var(--heading);
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     & a {
       color: inherit;

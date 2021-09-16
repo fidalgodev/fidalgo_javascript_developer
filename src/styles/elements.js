@@ -16,9 +16,17 @@ export const ContainedStyles = css`
 
 export const ContainedWrapper = styled.div`
   ${ContainedStyles}
-  margin-top: 8rem;
+  margin-top: 10rem;
+
+  @media ${({ theme }) => theme.breakpoints.m} {
+    margin-top: 8rem;
+  }
 
   @media ${({ theme }) => theme.breakpoints.s} {
     margin-top: 6rem;
+  }
+
+  @media ${({ theme }) => theme.breakpoints.xs} {
+    margin-top: 4rem;
   }
 `;

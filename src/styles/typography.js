@@ -14,6 +14,6 @@ export const Heading = styled.h1`
   color: var(--heading);
   line-height: 1;
   font-weight: 900;
-  font-size: 7rem;
+  font-size: 6rem;
   margin-bottom: 3rem;
 `;
