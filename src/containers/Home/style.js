@@ -30,7 +30,7 @@ export const SocialsWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   margin-top: 7rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 
   @media ${({ theme }) => theme.breakpoints.xs} {
     margin-top: 6rem;
