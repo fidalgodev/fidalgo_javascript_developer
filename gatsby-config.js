@@ -79,6 +79,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-remove-serviceworker',
+    'gatsby-plugin-csp',
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
