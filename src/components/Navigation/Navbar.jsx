@@ -13,8 +13,8 @@ const Navbar = () => {
             alt="Logo"
             title="Logo"
             src="../../images/logo.jpeg"
-            width="50"
-            height="50"
+            width={50}
+            height={50}
             imgClassName="logo"
             className="logoWrapper"
             placeholder="blurred"

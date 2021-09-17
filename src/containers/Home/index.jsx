@@ -10,6 +10,7 @@ export const HomePage = () => {
   return (
     <Container>
       <StaticImage
+        alt="Background Image"
         className="background__image"
         src="../../images/background.jpg"
         objectPosition="30% center"

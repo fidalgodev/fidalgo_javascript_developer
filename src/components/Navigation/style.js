@@ -30,7 +30,8 @@ export const Logo = styled(Link)`
     margin-right: 1.5rem;
   }
 
-  & .gatsby-image-wrapper {
+  & .gatsby-image-wrapper,
+  & .logo {
     border-radius: 50%;
   }
 
