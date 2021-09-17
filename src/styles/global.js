@@ -82,7 +82,7 @@ a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 
   &:focus {
-    outline: 2px solid var(--heading);
+    outline: 2px auto var(--heading);
     outline-offset: 4px;
   }
 }
