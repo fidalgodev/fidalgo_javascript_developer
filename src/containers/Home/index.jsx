@@ -19,7 +19,7 @@ export const HomePage = () => {
         <SubHeading>About me</SubHeading>
         <Heading>Hi, I&#39;m Fidalgo.</Heading>
         <p>
-          I&#39;m Fidalgo, a 26 year old self-taught Javascript Developer, living in Leicester and currently working at Prolific as a Frontend Engineer.
+          I&#39;m Fidalgo, a 26 year old self-taught Javascript Developer living in Leicester and currently working at Prolific as a Frontend Engineer.
         </p>
         <p>
           In October 2018 I decided it was time for a change, so I started to
