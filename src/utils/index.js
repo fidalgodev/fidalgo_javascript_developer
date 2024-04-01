@@ -1,4 +1,4 @@
-export function getAge(birthDate = new Date('10/18/1995')) {
+function getAge(birthDate = new Date('10/18/1995')) {
   const yearInMs = 1000 * 60 * 60 * 24 * 365.25;
 
   const today = new Date();
@@ -6,3 +6,7 @@ export function getAge(birthDate = new Date('10/18/1995')) {
 
   return Math.floor(diff / yearInMs);
 }
+
+module.exports = {
+  getAge,
+};
