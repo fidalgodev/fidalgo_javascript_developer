@@ -1,16 +1,17 @@
+const getAge = require('../src/utils').getAge;
+
 module.exports = {
-  siteTitle: 'Fidalgo - Javascript Developer', // Navigation and Site Title
-  siteTitleAlt: 'The personal website of Fidalgo', // Alternative Site title for SEO
+  siteTitle: 'Fidalgo - Software Developer', // Navigation and Site Title
+  siteTitleAlt: 'Fidalgo - Software Developer', // Alternative Site title for SEO
   siteTitleShort: 'fidalgo.dev', // short_name for manifest
   siteUrl: process.env.ROOT_URL || 'https://fidalgo.dev', // Domain of your site. No trailing slash!
-  lang: 'en', // Language Tag on <html> element
+  lang: 'en',
   pathPrefix: '/',
-  siteLogo: 'images/logo.jpeg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
-  siteDescription:
-    "I'm Fidalgo, a 25 year old self-taught Javascript Developer, currently living in Leicester.",
+  siteLogo: 'images/logo.jpg',
+  siteDescription: `Meet Fidalgo, a ${getAge()}-year-old self-taught Software Developer from Leicester, currently working at Prolific as a Software Engineer.`,
   minibio:
-    "I always want to learn moreand do more. I';m also a firm believer that we should never settle. I';m hard working, super curious, passionate, committed and a fast learner!",
-  author: 'Fidalgo', // Author for schemaORGJSONLD
+    'I love learning and growing. I believe in pushing myself and never settling. I&apos;m hardworking, curious, and always eager to learn more!',
+  author: 'Fidalgo',
   organization: 'Fidalgo',
 
   // Manifest and Progress color

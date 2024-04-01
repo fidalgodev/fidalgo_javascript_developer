@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { Container, Wrapper, SocialsWrapper, List } from './style';
 import { SubHeading, Heading } from '../../styles/typography';
 import config from '../../../config/website';
+import { getAge } from '../../utils';
 
 export const HomePage = () => {
   return (
@@ -13,26 +14,27 @@ export const HomePage = () => {
         alt="Background Image"
         className="background__image"
         src="../../images/background.jpg"
-        objectPosition="30% center"
+        objectPosition="55% center"
       />
       <Wrapper>
         <SubHeading>About me</SubHeading>
         <Heading>Hi, I&#39;m Fidalgo.</Heading>
         <p>
-          I&#39;m Fidalgo, a 27 year old self-taught Javascript Developer living in Leicester and currently working at Prolific as a Frontend Engineer.
+          Meet Fidalgo, a {getAge()}-year-old self-taught Software Developer
+          from Leicester, currently working at Prolific as a Software Engineer.
         </p>
         <p>
-          In October 2018 I decided it was time for a change, so I started to
-          study Javascript before going into work. I quickly started to love
-          Javascript and in January 2019 I decided to take the risk and quit my
-          job. I then studied Javascript until July 2019, where I landed my
-          first job and moved to UK. I quickly improved my Javascript skills
-          and transitioned to a Full Stack position.
+          Back in October 2018, I felt the urge for change, so I began learning
+          JavaScript before my regular work hours. It didn&apos;t take long for
+          JavaScript to capture my interest, leading me to take a leap of faith
+          in January 2019 by quitting my job to focus on it full-time. By July
+          2019, I landed my first job in the UK and swiftly progressed to a Full
+          Stack position, improving my JavaScript skills along the way.
         </p>
         <p>
-          I always want to learn more and do more. I&#39;m also a firm believer
-          that we should never settle. I&#39;m hard working, super curious,
-          passionate, committed and a fast learner!
+          I love learning and growing. I believe in pushing myself and never
+          settling. I&apos;m hardworking, curious, and always eager to learn
+          more!
         </p>
         <SocialsWrapper>
           <SubHeading>Links</SubHeading>

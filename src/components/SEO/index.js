@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import SchemaOrg from './schema-org';
 
 import config from '../../../config/website';
-import defaultMetaImage from '../../../static/images/logo.jpeg';
+import defaultMetaImage from '../../images/logo.jpg';
 
 const SEO = ({
   siteMetadata: seo,
